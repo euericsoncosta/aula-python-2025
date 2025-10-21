@@ -30,13 +30,20 @@
 
 
 
-for i in range(6):# percorre os numeros de 0 a 5
-    print(i)# imprime o numero atual
+# for i in range(6):# percorre os numeros de 0 a 5
+#     print(i)# imprime o numero atual
 
 
-for i in range(2, 6):# percorre os numeros de 2 a 5
-    print(i)# imprime o numero atual
+# for i in range(2, 6):# percorre os numeros de 2 a 5
+#     print(i)# imprime o numero atual
 
 
-for i in range(2, 30, 3):# percorre os numeros de 2 a 29, pulando de 3 em 3
-    print(i)# imprime o numero atual
+# for i in range(2, 30, 3):# percorre os numeros de 2 a 29, pulando de 3 em 3
+#     print(i)# imprime o numero atual
+
+
+#calculadora de multiplicacao
+
+num = int(input("Digite um numero para ver sua tabuada: "))# pede ao usuario para digitar um numero e converte para inteiro
+for i in range(1, 11):# percorre os numeros de 1 a 10
+    print(f"{num} x {i} = {num * i}")# imprime a tabuada do numero digitado
