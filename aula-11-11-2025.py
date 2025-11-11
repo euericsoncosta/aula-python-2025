@@ -80,3 +80,30 @@
 
 
 # sortear_e_somar()
+
+
+# Exercício 16:
+
+# ✔ Crie um programa que tenha uma função fatorial() e retorno o valor fatorial
+# de três variáveis em tela.
+
+# def fatorial(x):# funcao fatorial
+#     fatorial = 1 # inicializa fatorial com 1
+#     if x == 0 or x ==1:# condição para 0! e 1!
+#         return 1 #retorna 1
+#     else:# para outros valores
+#         for i in range(x, 0, -1):# loop decrescente de x até 1
+#             # fatorial = fatorial * i # calcula o fatorial
+#             fatorial *= i # calcula o fatorial
+#     return fatorial # retorna o valor do fatorial
+
+# def calcular_fatoriais():# calcula fatoriais de 3 números
+#     numeros =[]# lista para armazenar os números
+#     for i in range(3):# loop para 3 números
+#         numero = int(input(f"Digite o {i+1}º número para calcular o fatorial: "))
+#         numeros.append(numero)# adiciona o número à lista
+#     for numero in numeros:# loop para calcular e exibir o fatorial de cada número
+#         print(f"O fatorial de {numero} é {fatorial(numero)}")# exibe o fatorial
+
+# calcular_fatoriais()# chama a função para calcular os fatoriais
+
